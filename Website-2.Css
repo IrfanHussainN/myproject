@@ -1,0 +1,532 @@
+body {
+    background-color: rgb(215, 199, 199);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-sec {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./Camera\ man\ 1.jpg);
+    padding-bottom: 10%;
+
+}
+
+.main-section {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.icon i{
+    display: none;
+    color:#fff;
+}
+
+.nav {
+    display: flex;
+    gap: 4rem;
+}
+
+@media screen and (max-width:950px) {
+    .nav {
+        display: none;
+    }
+
+    .icon i {
+        display: block;
+        color: white;
+    }
+    #home h1 {
+        font-size: 10px;
+    }
+    
+
+}
+
+.nav li,
+a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.nav li:hover {
+    color: rgb(255, 0, 38);
+}
+.main-section .logo , h6::before{
+    content: "DoGar";
+   color: rgb(73, 181, 11);
+   font-size: 50px;
+}
+
+.main-section h6 {
+    font-size: 30px;
+    color: white;
+}
+.main-section .logo , h6::after{
+    content: " 0072";
+   color: rgb(255, 179, 0);
+   font-size: 30px;
+}
+
+/* start home */
+
+#home {
+    text-align: center;
+    padding: 10% 0;
+    font-size: 30px;
+
+}
+
+#home h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#home .p-2{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#home h2 {
+    padding-right: 20%;
+    font-size: 50px;
+    color: white;
+}
+
+.paragraph button {
+    background-color: transparent;
+    padding: 1%;
+    border-radius: 50px;
+    border: 2px solid white;
+    color: white;
+    font-size: 30px;
+}
+
+.paragraph button:hover {
+    background-color: rgb(22, 160, 10);
+}
+
+.paragraph button {
+    margin-top: 10%;
+}
+
+/* start about */
+
+#about {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 25px;
+    padding: 10% 0;
+}
+
+@media screen and (max-width:820px) {
+    #about {
+        display: block;
+        text-align: center;
+    }
+}
+
+#about .pic-1,
+img {
+    height: 60vh;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#about .paragraph-1 {
+    color: black;
+    font-size: 30px;
+}
+
+#about .paragraph-2 {
+    display: flex;
+}
+
+#about .paragraph-2,
+h3 {
+    font-size: 20px;
+    color: black;
+}
+
+#about .paragraph-2,
+h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(234, 125, 125);
+}
+
+.paragraph-2 h3 {
+    color: black;
+}
+
+.icon-3 i {
+    color: black;
+    padding: 1%;
+    margin: 2% 0;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+
+/* our services */
+
+.services-1 {
+    text-align: center;
+}
+
+.services-1 h1 {
+    padding-top: 4%;
+    font-size: 60px;
+    padding-bottom: 2%;
+}
+
+.services-1 p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: black;
+}
+
+hr {
+    background-color: rgb(229, 84, 59);
+    height: 1%;
+    width: 20%;
+    margin: 2% auto 0 auto;
+}
+
+.graphic-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    text-align: center;
+    padding: 5vh 10vh;
+}
+
+@media screen and (max-width:900px) {
+    .graphic-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width:700px) {
+    .graphic-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+
+    }
+}
+
+.graphic-1 .g-1 i {
+    color: orangered;
+}
+
+.graphic-1 .g-1 {
+    border: 2px solid black;
+    font-size: 40px;
+    padding-top: 30px;
+    color: orangered;
+}
+
+.graphic-1 h1 {
+    color: black;
+    font-size: 35px;
+}
+
+.graphic-1 p {
+    color: black;
+    font-size: 30px;
+}
+
+/* Iam available */
+.btn {
+    padding: 2vh 0px 7vh 0px;
+    background-color: white;
+    text-align: center;
+}
+
+.btn,
+h1 {
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+.btn button {
+    color: white;
+    font-size: 30px;
+    border-radius: 3px;
+    background-color: rgb(222, 68, 68);
+}
+
+.btn button:hover {
+    background-color: rgb(242, 255, 0);
+}
+
+/* our-client */
+
+.our-client {
+    padding: 2vh 0px 4vh 0px;
+}
+
+.our-client h1 {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 40px;
+}
+
+.our-client p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.our-client .icon-4 {
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.pic-3 img {
+    margin-left: 47%;
+    border-radius: 60vh;
+    height: 70px;
+    width: 70px;
+}
+
+.text-5 p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.text-5 h4 {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Our Work */
+
+.work {
+    padding-bottom: 4%;
+    background-color: white;
+}
+
+.work h1 {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 6%;
+}
+
+.work .l-2 {
+    background-color: #e95a5a;
+    border-radius: 20px;
+    width: 11vh;
+}
+
+.work .li-1,
+li {
+    gap: 30px;
+    margin: 4% 0 4% 0;
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pic-6 {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 20px;
+    margin-left: 2%;
+}
+
+@media screen and (max-width: 900px) {
+    .pic-6 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}@media screen and (max-width: 700px) {
+    .pic-6 {
+        display: grid;
+    grid-template-columns: 1fr;
+    }
+    .map {
+        display: block;
+        flex-direction: column;
+    }
+}
+
+
+/* Our Blog */
+
+.Blog h1 {
+    margin: 4% 0 4% 0;
+    text-align: center;
+    font-size: 60px;
+}
+
+.Blog h4 {
+    font-size: 33px;
+}
+
+.blog-1 p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.pic-9 img {
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 80%;
+    height: 35vh;
+}
+
+.pic-9 img,
+h1 {
+    font-size: 30px;
+    color: #000;
+}
+
+.pic-9 img,
+h3 {
+    font-size: 30px;
+    color: #ff0000;
+}
+
+.text-1,
+h5 {
+    font-size: 20px;
+    color: #060606;
+}
+
+/* Contact Seaction */
+
+.contact-1 {
+    background-color:#fff;
+    text-align: center;
+}
+
+.contact-1 h1 {
+    padding-bottom: 2%;
+    padding-top: 4%;
+    font-size: 40px;
+}
+
+.location h1 {
+    font-size: 20px;
+}
+
+.map {
+    gap: 10%;
+    display: flex;
+    margin-top: 4%;
+    justify-content: center;
+}
+.form{
+    width: 100%;
+}
+
+.map,
+i {
+    color: #000;
+    font-size: 30px;
+    margin: 4%;
+}
+
+.map a {
+    color: #000;
+}
+
+.map h1 {
+    color: #000;
+
+}
+
+.form {
+    line-height: 60px;
+    text-align: center;
+    padding: 10% 0px;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.form input {
+    width: 100%;
+    padding: 10px 5px;
+
+}
+
+.form-input {
+    display: flex;
+    margin: 0 auto;
+    gap: 2%;
+    width: 100%;
+}
+
+.form textarea {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.sub {
+    width: 100%;
+}
+
+.sub input {
+    width: 99%;
+}
+
+#send-msg{
+  display: flex;
+  justify-content: right;
+    
+}
+#send-msg .send-msg{
+    color: white;
+    border-radius:4px;
+    background-color: #e95a5a;
+    font-size: 20px;
+    padding:2% 10px;
+}
+
+#send-msg .send-msg:hover {
+    background-color: #0516ae;
+
+
+}
+
+
+/* footer section */
+.footer-col-1 {
+    text-align: center;
+    gap: 1%;
+}
+
+.footer-col-1 i {
+    color: #000;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 4px;
+}
+
+.bottom p {
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+}
